@@ -1,0 +1,44 @@
+@font-face {
+  font-family: supermarket;
+  src: url(../fonts/supermarket.ttf);
+}
+@font-face {
+  font-family: SPACEPORT;
+  src: url(../fonts/SPACEPORT.OTF);
+}
+
+.section {
+  text-align: center;
+  background-size: cover;
+}
+.section h1 {
+  font-family: SPACEPORT;
+  font-size: 8em;
+}
+.section h2 {
+  font-family: supermarket;
+  font-size: 4em;
+}
+#color1 {
+    background: linear-gradient(90deg, white 50%, #0854C7 50%);
+    background: -webkit-linear-gradient(90deg, white 50%, #0854C7 50%);
+}
+#cap {
+  font-family: supermarket;
+  font-size: 4em;
+}
+p {
+  font-family: supermarket;
+  font-size: 2em;
+}
+.row {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+}
+img {
+  max-width:300;
+  max-height:300px;
+  width: auto;
+  height: auto;
+}
