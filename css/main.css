@@ -6,6 +6,8 @@
   font-family: SPACEPORT;
   src: url(../fonts/SPACEPORT.OTF);
 }
+h2 {
+}
 
 .section {
   text-align: center;
@@ -33,11 +35,11 @@
 }
 
 .arrow-down{
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 80px solid transparent;
   border-right: 80px solid transparent;
-  
+
   border-top: 50px solid #0854C7;
 }
 
@@ -55,4 +57,14 @@ img {
   max-height:300px;
   width: auto;
   height: auto;
+}
+#topPic {
+  max-width:100px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+#text {
+  text-align: justify;
+  text-indent: 3em;
 }
