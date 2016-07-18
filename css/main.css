@@ -1,110 +1,114 @@
-@font-face {
-  font-family: supermarket;
-  src: url(../fonts/supermarket.ttf);
+  @font-face {
+    font-family: supermarket;
+    src: url(../fonts/supermarket.ttf);
 }
 @font-face {
-  font-family: SPACEPORT;
-  src: url(../fonts/SPACEPORT.OTF);
+    font-family: SPACEPORT;
+    src: url(../fonts/SPACEPORT.OTF);
 }
-h2 {
+html, body {
+    height: 100%;
+    margin: 0;
 }
-
+.content {
+    height: 100%;
+    min-height: 100%;
+    /*for mozilla*/
+}
+html>body .content {
+    height: auto;
+}
+#one {
+    background-color: lightblue;
+}
 .section {
-  text-align: center;
-  background-size: cover;
+    text-align: center;
+    background-size: cover;
 }
 .section h1 {
-  font-family: SPACEPORT;
-  font-size: 8em;
+    font-family: SPACEPORT;
+    font-size: 8em;
 }
 .section h2 {
-  font-family: supermarket;
-  font-size: 4em;
+    font-family: supermarket;
+    font-size: 4em;
 }
 .section h3 {
-  font-family: supermarket;
-  font-size: 2em;
+    font-family: supermarket;
+    font-size: 2em;
 }
 #color1 {
     background: linear-gradient(90deg, white 50%, #0854C7 50%);
     background: -webkit-linear-gradient(90deg, white 50%, #0854C7 50%);
 }
 #cap {
-  font-family: supermarket;
-  font-size: 4em;
+    font-family: supermarket;
+    font-size: 4em;
 }
-
-.section.first-sec{
-  background-color: aliceblue;
+.section.first-sec {
+    background-color: aliceblue;
 }
-
-.arrow-down{
-  width: 0;
-  height: 0;
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
-
-  border-top: 50px solid #0854C7;
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-top: 50px solid #0854C7;
 }
-
 p {
-  font-family: supermarket;
-  font-size: 2em;
+    font-family: supermarket;
+    font-size: 1.5em;
 }
 .row {
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
 }
 img {
-  max-width:300;
-  max-height:300px;
-  width: auto;
-  height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 #topPic {
-  max-width:100px;
-  max-height:100px;
-  width: auto;
-  height: auto;
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
 }
 #text {
-  text-align: justify;
-  text-indent: 3em;
+    text-align: justify;
+    text-indent: 3em;
 }
-
 .triangle {
- width: 0;
- height: 0;
- border-left: 100px solid transparent;
- border-right: 100px solid transparent;
- border-top: 100px solid #f00;
- position: absolute;
- top: 0;
- left: 50%;
- transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 100px solid #f00;
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.sec2-img img{
-   width: 100px;
-   margin: 20px 20px 0 0;
+.sec2-img img {
+    width: 100px;
+    margin: 20px 20px 0 0;
 }
-
 .sec2-img ul {
-   list-style: none;
+    list-style: none;
 }
-
 @media screen and (min-width: 1166px) {
-   .sec2-img img{
-      width: 150px;
-      margin-right: 20px;
-   }
-   .sec2-img ul li{
-      display: inline;
-   }
-
-#smallMap {
-  max-width:50px;
-  max-height:50px;
-  width: auto;
-  height: auto;
-}
+    .sec2-img img {
+        width: 150px;
+        margin-right: 20px;
+    }
+    .sec2-img ul li {
+        display: inline;
+    }
+    #smallMap {
+        max-width: 50px;
+        max-height: 50px;
+        width: auto;
+        height: auto;
+    }
