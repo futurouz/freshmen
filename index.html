@@ -10,6 +10,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/slide.js"> </script>
 </head>
 
 <body>
@@ -50,15 +51,15 @@
         <div class="col-md-12">
          <div class="row sec2-img">
             <ul>
-               <li><img src="img/edu.png" alt=""></li>
-               <li><img src="img/_services.png" alt=""></li>
-               <li><img src="img/_person.png" alt=""></li>
-               <li><img src="img/_rules.png" alt=""></li>
-               <li><img src="img/_map_2.png" alt=""></li>
-               <li><img src="img/shirt.png" alt=""></li>
-               <li><img src="img/security.png" alt=""></li>
-               <li><img src="img/carpark.png" alt=""></li>
-               <li><img src="img/activity.png" alt=""></li>
+               <li id="edu"><img src="img/edu.png" alt=""></li>
+               <li id="ser"><img src="img/_services.png" alt=""></li>
+               <li id="per"><img src="img/_person.png" alt=""></li>
+               <li id="rule"><img src="img/_rules.png" alt=""></li>
+               <li id="map"><img src="img/_map_2.png" alt=""></li>
+               <li id="shirt"><img src="img/shirt.png" alt=""></li>
+               <li id="secur"><img src="img/security.png" alt=""></li>
+               <li id="car"><img src="img/carpark.png" alt=""></li>
+               <li id="acti"><img src="img/activity.png" alt=""></li>
             </ul>
          </div>
        </div>
@@ -91,7 +92,7 @@
         </div>
 
         <!-- 4 ----->
-        <div class="content">
+        <div class="content" id="eduSlide">
           <div class="container">
             <div class="section">
               <div class="triangle"></div>
@@ -121,39 +122,47 @@
                   </div>
                 </div>
 
-                    <!-- 5 -->
-                    <div class="content" id="one">
-                    <div class="container">
-                    <div class="section">
-                        <div class="triangle"></div>
-                        <div class="row">
-                            <div class="col-md-2 col-md-offset-7">
-                              <img src="img/services.png" alt="service" id="topPic" />
-                            </div>
-                            <div class="col-md-2">
-                              <h2>Content</h2>
-                            </div>
+        <!-- 5 -->
+        <div class="content" id="serSlide">
+          <div class="container">
+              <div class="section">
+                  <div class="triangle"></div>
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-7">
+                            <img src="img/services.png" alt="service" id="topPic" />
                         </div>
-                        <div class="row" id=text>
-                            <div class="col-md-6">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                </p>
-                            </div>
-                            <div class="col-md-6">
-                              <img src="" alt="pic" />
-                            </div>
+                        <div class="col-md-2">
+                            <h2>Content</h2>
+                        </div>
+                    </div>
+                  <div class="row" id=text>
+                        <div class="col-md-6">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="" alt="pic" />
                         </div>
                       </div>
                     </div>
                   </div>
+                </div>
 
                     <!-- 6 -->
-                    <div class="content">
+                    <div class="content" id="perSlide">
                       <div class="container">
                         <div class="section">
                         <div class="triangle"></div>
+                        <div class="row">
+                            <div class="col-md-2">
+                                <img src="img/_person.png" alt="edu" id="topPic" />
+                            </div>
+                            <div class="col-md-2">
+                                <h2>Content</h2>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-3 col-md-offset-3">
                                 <figure class="figure">
@@ -187,7 +196,7 @@
                     </div>
 
                     <!-- 7 -->
-                    <div class="content" id="one">
+                    <div class="content" id="ruleSlide">
                       <div class="container">
                         <div class="section">
                         <div class="triangle"></div>
@@ -222,7 +231,7 @@
 
 
                   <!-- 8 ------>
-                  <div class="content">
+                  <div class="content" id="mapSlide">
                     <div class="container">
                       <div class="section">
                         <div class="triangle"></div>
@@ -268,7 +277,7 @@
             </div>
 
             <!-- 9 -->
-            <div class="content" id="one">
+            <div class="content" id="shirtSlide">
             <div class="container">
             <div class="section">
                 <div class="triangle"></div>
@@ -292,7 +301,7 @@
         </div>
 
         <!-- 10 ------>
-        <div class="content">
+        <div class="content" id="securSlide">
           <div class="container">
             <div class="section">
               <div class="triangle"></div>
@@ -318,7 +327,7 @@
 
 
     <!-- 11 -->
-    <div class="content" id="one">
+    <div class="content" id="carSlide">
     <div class="container">
     <div class="section">
         <div class="triangle"></div>
@@ -338,7 +347,7 @@
                 <img src="img/moto2.png" alt="men" />
             </div>
         </div>
-        <div class="row">
+        <div class="row" id=text>
           <div class="col-md-6">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -366,7 +375,7 @@
 </div>
 
 <!-- 12 ------>
-<div class="content">
+<div class="content" id="actiSlide">
   <div class="container">
     <div class="section">
       <div class="triangle"></div>
