@@ -59,11 +59,29 @@ img {
 .triangle {
  width: 0;
  height: 0;
- border-left: 150px solid transparent;
- border-right: 150px solid transparent;
- border-top: 150px solid #f00;
+ border-left: 100px solid transparent;
+ border-right: 100px solid transparent;
+ border-top: 100px solid #f00;
  position: absolute;
  top: 0;
  left: 50%;
  transform: translateX(-50%);
+}
+.sec2-img img{
+   width: 100px;
+   margin: 20px 20px 0 0;
+}
+
+.sec2-img ul {
+   list-style: none;
+}
+
+@media screen and (min-width: 1166px) {
+   .sec2-img img{
+      width: 150px;
+      margin-right: 20px;
+   }
+   .sec2-img ul li{
+      display: inline;
+   }
 }
