@@ -21,6 +21,10 @@ h2 {
   font-family: supermarket;
   font-size: 4em;
 }
+.section h3 {
+  font-family: supermarket;
+  font-size: 2em;
+}
 #color1 {
     background: linear-gradient(90deg, white 50%, #0854C7 50%);
     background: -webkit-linear-gradient(90deg, white 50%, #0854C7 50%);
@@ -67,4 +71,22 @@ img {
 #text {
   text-align: justify;
   text-indent: 3em;
+}
+
+.triangle {
+ width: 0;
+ height: 0;
+ border-left: 150px solid transparent;
+ border-right: 150px solid transparent;
+ border-top: 150px solid #f00;
+ position: absolute;
+ top: 0;
+ left: 50%;
+ transform: translateX(-50%);
+}
+#smallMap {
+  max-width:50px;
+  max-height:50px;
+  width: auto;
+  height: auto;
 }
