@@ -26,11 +26,11 @@ html>body .content {
 }
 .section h1 {
     font-family: SPACEPORT;
-    font-size: 8em;
+    font-size: 4em;
 }
 .section h2 {
     font-family: supermarket;
-    font-size: 4em;
+    font-size: 3em;
 }
 .section h3 {
     font-family: supermarket;
@@ -95,21 +95,25 @@ img {
     border-top: 100px solid lightblue;
 }
 .sec2-img {
-   padding: 50px;
+   padding: 50px 0 100px 0;
 }
 .sec2-img img {
    margin: 20px 20px 0 0;
    cursor: pointer;
    width: 150px;
+   border-radius: 50%;
+   opacity: 0.8;
+   transition: all .32s;
 }
-@media screen and (min-width: 1166px) {
-    #smallMap {
-        max-width: 50px;
-        max-height: 50px;
-        width: auto;
-        height: auto;
-    }
-
+.sec2-img img:hover {
+   opacity: 1;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+#smallMap {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
 }
 @media screen and (min-width: 1200px) {
    .sec2-img ul li {
@@ -117,7 +121,6 @@ img {
    }
 }
 @media screen and (max-width: 1199px) {
-
    #edu::before{
       content: 'EDUCATION';
       font-size: 18px;
