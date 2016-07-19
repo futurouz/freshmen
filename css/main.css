@@ -7,7 +7,6 @@
     src: url(../fonts/SPACEPORT.OTF);
 }
 html, body {
-    height: 100%;
     margin: 0;
 }
 .content {
@@ -18,7 +17,7 @@ html, body {
 html>body .content {
     height: auto;
 }
-#one {
+.lb-bg {
     background-color: lightblue;
 }
 .section {
@@ -85,18 +84,22 @@ img {
     height: 0;
     border-left: 100px solid transparent;
     border-right: 100px solid transparent;
-    border-top: 100px solid #f00;
+    border-top: 100px solid #FFF;
     position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
 }
-.sec2-img img {
-    width: 100px;
-    margin: 20px 20px 0 0;
+.lb-tri {
+    border-top: 100px solid lightblue;
 }
-.sec2-img ul {
-    list-style: none;
+.sec2-img {
+   padding: 50px;
+}
+.sec2-img img {
+   margin: 20px 20px 0 0;
+   cursor: pointer;
+   width: 150px;
 }
 @media screen and (min-width: 1166px) {
     .sec2-img img {
@@ -112,3 +115,4 @@ img {
         width: auto;
         height: auto;
     }
+}
