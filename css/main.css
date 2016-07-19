@@ -61,6 +61,7 @@ p {
 .row {
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
 }
 img {
@@ -164,4 +165,3 @@ img {
       font-size: 18px;
       margin-right: 50px;
    }
-}
