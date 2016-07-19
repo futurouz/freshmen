@@ -79,6 +79,7 @@ img {
     text-align: justify;
     text-indent: 3em;
 }
+
 .triangle {
     width: 0;
     height: 0;
@@ -102,17 +103,65 @@ img {
    width: 150px;
 }
 @media screen and (min-width: 1166px) {
-    .sec2-img img {
-        width: 150px;
-        margin-right: 20px;
-    }
-    .sec2-img ul li {
-        display: inline;
-    }
     #smallMap {
         max-width: 50px;
         max-height: 50px;
         width: auto;
         height: auto;
     }
+
+}
+@media screen and (min-width: 1200px) {
+   .sec2-img ul li {
+      display: inline;
+   }
+}
+@media screen and (max-width: 1199px) {
+
+   #edu::before{
+      content: 'EDUCATION';
+      font-size: 18px;
+      margin-right: 50px;
+      line-height: 150px;
+   }
+   #ser::after{
+      content: 'SERVICES';
+      font-size: 18px;
+      margin-left: 50px;
+   }
+   #per::before{
+      content: 'PERSONS';
+      font-size: 18px;
+      margin-right: 50px;
+   }
+   #rule::after{
+      content: 'RULES';
+      font-size: 18px;
+      margin-left: 50px;
+   }
+   #map::before{
+      content: 'MAP';
+      font-size: 18px;
+      margin-right: 50px;
+   }
+   #shirt::after{
+      content: 'SHIRT';
+      font-size: 18px;
+      margin-left: 50px;
+   }
+   #secur::before{
+      content: 'SECURITY';
+      font-size: 18px;
+      margin-right: 50px;
+   }
+   #car::after{
+      content: 'CAR PARK';
+      font-size: 18px;
+      margin-left: 50px;
+   }
+   #acti::before{
+      content: 'ACTIVITY';
+      font-size: 18px;
+      margin-right: 50px;
+   }
 }
