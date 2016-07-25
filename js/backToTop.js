@@ -10,7 +10,7 @@ $(function(){
   //Click event
   $('.goToTop').click(function () {
     $('html, body').animate({
-        scrollTop: $("#ruleSlide").offset().top
+        scrollTop: $("#contents").offset().top
       }, 1000);
     });
 
